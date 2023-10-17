@@ -4,20 +4,22 @@ function headingAnime(){
     
     const heading = document.querySelector('.unique');
     const h2 = document.querySelector('h2');
+    const discrition2 = document.querySelector('.disc2');
+
     
     gsap.from(heading, {
-     Transform: 'translateY(100px)',
+     Transform: 'translateY(150px)',
      opacity: 0,
      duration: 1,
      delay: 0.5,
      stagger: 1,
     //  ease: 'circ'
-       
+    
     })
     
     
     gsap.from(h2, {
-       Transform: 'translateX(-200px)',
+       Transform: 'translateX(200px)',
        opacity: 0,
        duration: 1,
        delay: 0.3,
@@ -25,6 +27,19 @@ function headingAnime(){
     
          
       })
+
+      gsap.from(discrition2, {
+        Transform: 'translateX(-300px)',
+        opacity: 0,
+        duration: 1,
+        delay: 0.5,
+        stagger: -2
+     
+          
+       })
+
+
+
       
    }
    headingAnime()
@@ -38,7 +53,7 @@ function headingAnime(){
     
          // alert('heyy')
          gsap.to(scroll,{
-           opacity: 1,
+           opacity: 0.3,
            scale: 1
          })
            

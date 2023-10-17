@@ -6,32 +6,93 @@
     <title>Abhishek's portfolio</title>
     <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <div class="main">
         
         <div class="background">
-            <div class="nav">
-                <div class="nav-left">loggya</div>
-                <div class="nav-right">
-                    <h5>About</h5>
-                    <h5>Resume</h5>
-                    <h5>Contact</h5>
-                </div>
-            </div>
-            <div class="section-1">
             
+            <div class="section-1">
+                <div class="nav">
+                    <div class="nav-left">portfolio</div>
+                    <div class="nav-right">
+                        <a href="#about-me"><h5>About</h5></a>
+                        <h5 style="color: #cacf89;">Resume</h5>
+                        <a href="#skills"><h5>Skills</h5></a>
+                        <a href="#project"><h5>project</h5></a>
+                        <a href="#contact-me"><h5>Contact</h5></a>
+                        
+                        
+                    </div>
+                </div>
                 <div class="centre">
-                    <h2>Hello I'm </h2>
+                    <h2 class="disc1">Hello!! This is </h2>
                     <h1 class="unique">Abhishek Bhambe</h1>
+                    <h2 class="disc2">And I'm Frontend Developer...</h2>
                     <!-- <a href="#"><button>Icon</button></a> -->
+                    <h4>Connect me via:</h4>
+                    <div class="social-links">
+                       <a class="links" href="https://linkedin.com/in/abhishekbhambe"><i class="ri-linkedin-box-fill"></i></a> 
+                       <a class="links" href="https://github.com/abhi5672"><i class="ri-github-fill"></i></a> 
+                        <a class="links" href="https://twitter.com/AbhishekBhambe"><i class="ri-twitter-fill"></i></a>
+                    </div>
                 </div>
             </div>
            
         </div>
         <div class="section-2">
             <div class="scroller"></div>
-            <h1 class="t">this is section 2</h1>
+            
+            <div class="about" id="about-me">
+                
+                <div class="img"><img src="./img.png" alt="my img"></div>
+                <div class="info">
+                    <div class="about-header">
+                     <h2>About Me</h2>
+                       <h4>Frontend Web Developer</h4>
+                    </div>
+                    <div class="text">As a fresh and enthusiastic frontend developer, I'm passionate about crafting engaging and user-centric digital experiences. With a solid foundation in HTML, CSS, and JavaScript, I'm dedicated to translating creative ideas into visually stunning and responsive web applications. Eager to embrace new technologies and trends, I'm committed to continuous learning and growth in the ever-evolving field of web development. I'm excited to collaborate on innovative projects and contribute my skills to create visually appealing and functional websites that leave a lasting impression on users.</div>
+                </div>
+            </div>
+
+            <div id="skills" class="skills-section">
+                <div class="info">
+                    <div class="skills-header">
+                       <h2>Skills</h2>
+                       <!-- <h4>language:</h4> -->
+                    </div>
+                <ul class="list-items">
+                    <li>HTML CSS JavaScript</li>
+                    <li>Tailwind CSS Bootstrap</li>
+                    <li>React</li>
+                    <li>Gsap</li>
+                    <li>Git and Github</li>
+                    <li>Responsive Design</li>
+                    <li>UI UX Design</li>
+                </ul>
+                </div>
+                <div class="skills-img"><img src="./skills.png" alt="skills img">
+                </div>
+            </div>
+
+
+            <div class="project-section" id="project">
+                <div class="elem">elem1</div>
+                <div class="elem">elem2</div>
+                <div class="elem">elem3</div>
+            </div>
+            <div class="contact-section">
+                <div class="contact-me">contact me:</div>
+                <div class="contact-form">
+                    <form action="#">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
                 
         </div>
         
