@@ -46,10 +46,10 @@ function headingAnime(){
 
    function Scroller (){
     
-      const section2 = document.querySelector('.section-2');
+      const about = document.querySelector('.about');
       const scroll = document.querySelector('.scroller')
 
-      section2.addEventListener('mouseenter',function(){
+      about.addEventListener('mouseenter',function(){
     
          // alert('heyy')
          gsap.to(scroll,{
@@ -59,7 +59,7 @@ function headingAnime(){
            
         }) 
 
-        section2.addEventListener('mouseleave',function(){
+        about.addEventListener('mouseleave',function(){
     
          // alert('heyy')
          gsap.to(scroll,{
@@ -69,7 +69,7 @@ function headingAnime(){
            
         }) 
 
-        section2.addEventListener('mousemove',function(dets){
+        about.addEventListener('mousemove',function(dets){
     
       
          gsap.to(scroll,{
